@@ -1,0 +1,40 @@
+header#defaultHeader {
+  border-bottom: 1px solid #EDEDED;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+ul#navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  list-style: none;
+  padding: 10px 20px;
+}
+
+a#cartLink {
+  display: flex;
+  align-items: center;
+
+  color: #0863fe;
+  font-weight: bolder;
+}
+
+img#cartIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+a.navLink {
+  font-size: 1.1rem;
+  color: #282828;
+  text-decoration: none;
+}
+
+a.navLink:visited {
+  color: black;
+}
