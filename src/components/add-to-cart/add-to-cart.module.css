@@ -1,0 +1,17 @@
+aside.addToCart {
+  border: 1px solid #707070;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  align-self: baseline;
+}
+
+label#quantityLabel {
+  margin-bottom: 40px;
+}
+
+p.howToAddExplanation {
+  color: #282828;
+  margin-bottom: 20px;
+}

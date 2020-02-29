@@ -1,0 +1,21 @@
+figure.productGallery {
+  width: 50%;
+}
+
+.grid {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: 20% 79%;
+}
+
+figure.productGallery > img {
+  width: 100%;
+}
+
+div.thumbnails > img {
+  width: 100%;
+}
+
+div.thumbnails > img:hover {
+  cursor: pointer;
+}

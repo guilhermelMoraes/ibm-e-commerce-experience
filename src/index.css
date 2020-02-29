@@ -4,7 +4,7 @@
   font-family: 'Open Sans Regular', sans-serif;
 }
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY AND DEFAULT STYLES */
 h1 {
   font-family: 'Open Sans Bold', sans-serif;
   margin-bottom: 20px;
@@ -13,8 +13,46 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: 'Open Sans SemiBold', sans-serif;
+  margin-bottom: 20px;
 }
 
-figure {
-  margin: 0;
+h3, h4, h5, h6 {
+  color: #707070;
+}
+
+label {
+  display: inline-block;
+}
+
+label > span {
+  display: block;
+}
+
+label > input {
+  border: 1px solid #707070;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+button[type="submit"] {
+  border: none;
+  background-color: #0863fe;
+
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+
+  text-align: left;
+  color: #fafafa;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+button[type="submit"]:hover {
+  background-color: #0353e9;
+}
+
+button[type="submit"]:disabled {
+  background-color: #EDEDED;
 }

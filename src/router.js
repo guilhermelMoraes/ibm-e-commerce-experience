@@ -5,8 +5,9 @@ import {
   Route,
 } from 'react-router-dom';
 
-import Homepage from './pages/homepage/homepage';
 import Header from './components/header/header';
+import Homepage from './pages/homepage/homepage';
+import ProductDetail from './pages/product-detail/product-detail';
 
 export default function Router() {
   return (
@@ -14,6 +15,7 @@ export default function Router() {
       <Header />
       <Switch>
         <Route exact path="/" component={Homepage} />
+        <Route path="/product-detail/:id" component={ProductDetail} />
       </Switch>
     </BrowserRouter>
   );
