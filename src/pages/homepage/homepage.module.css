@@ -1,0 +1,31 @@
+section#topSection {
+  display: flex;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+img#ibmLogo {
+  width: 150px;
+  max-height: 200px;
+}
+
+div#intro {
+  margin-left: 50px;
+}
+
+main#productsWrapper {
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+h2#productsForQuotation {
+  margin: 20px 0 20px 0;
+}
+
+div#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}

@@ -1,0 +1,79 @@
+{
+    "products":[
+        {
+            "id": "63756f98-e1c1-49e6-85d9-7a867fdd47ba",
+            "name": "IBM Volunteers - bottle",
+            "description":"Bottle models may vary based on the ordering country. However, the overall design intent must be maintained.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/28/BT-IV-01.jpg"
+                }
+            ]
+        },
+        {
+            "id": "a91c155b-1b49-40dc-b347-b99c67ba8a4e",
+            "name": "IBM Volunteers - polo t-shirt",
+            "description":"Available in black and white. Size grid of polo T-Shirts may vary from country to country due to local suppliers and have embroidered logo. Please choose between S, M, L, XL and XXL sizes.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/24/PS-IV-02-blue.jpg"
+                },
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/24/PS-IV-03-white.jpg"
+                },
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/24/PS-IV-01-black.jpg"
+                }
+            ]
+        },
+        {
+            "id": "7c7ed121-494c-480a-8030-7ddf1ce0b8d4",
+            "name": "IBM Volunteers - notebook",
+            "description":"Journals can vary in style but the overall design intent must be maintained. Details may vary based on the ordering country.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/25/NB-IV-01-blue(2).jpg"
+                }
+            ]
+        },
+        {
+            "id": "b679cc0c-6fae-40d5-a59e-787a0231d91f",
+            "name": "IBM Volunteers - canvas tote bag",
+            "description":"Canvas tote bags details may vary based on the ordering country but the overall design intent must be maintained.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/26/BG-IV-02-white-logo-dark-blue.jpg"
+                },
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/26/BG-IV-01-white-to-blue-logo-dark-blue.jpg"
+                },
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/26/BG-IV-03-blue-logo-white.jpg"
+                }
+            ]
+        },
+        {
+            "id": "80fc701b-c4bd-4bd6-b709-62043b77785c",
+            "name": "IBM Volunteers - lanyard",
+            "description":"The standard version has a break-away safety clip and sublimation printing. It can vary in style but the overall design intent must be maintained.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/27/LY-IV-01.jpg"
+                }
+            ]
+        },
+        {
+            "id": "0d838994-69ea-4159-a362-86125b373857",
+            "name": "IBM.org - smart for good cinch bag",
+            "description":"Available in black and white.",
+            "images":[
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/14/CB-IO-01-black.jpg"
+                },
+                {
+                    "url": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cc-public-development/Merchandising/Products/14/CB-IO-02-white.jpg"
+                }
+            ]
+        }
+    ]
+}

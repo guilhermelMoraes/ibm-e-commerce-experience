@@ -7,8 +7,14 @@
 /* TYPOGRAPHY */
 h1 {
   font-family: 'Open Sans Bold', sans-serif;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+figure {
+  margin: 0;
 }
