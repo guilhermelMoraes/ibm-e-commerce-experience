@@ -4,6 +4,7 @@ import {
   useRouteMatch,
   Link,
 } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 import ProductGallery from '../../components/product-gallery/product-gallery';
 import AddToCart from '../../components/add-to-cart/add-to-cart';
@@ -32,8 +33,12 @@ export default function ProductDetail() {
   const { id:productId, name, description, images } = productData;
 
   return (
+    <>
+    <Helmet>
+      <title>{`${name} | IBM E-COMMERCE EXPERIENCE`}</title>
+    </Helmet>
     <div className={styles.productDetailWrapper}>
-      <Link to="/" className={styles.backToMainMenu}>
+      <Link to="/" className="back-to-homepage">
         <img
           src={backIcon}
           alt="Back to the main menu"
@@ -48,8 +53,15 @@ export default function ProductDetail() {
             <p>{description}</p>
           </section>
         </main>
-        <AddToCart productId={productId} />
+        <AddToCart
+          product={{
+            productId,
+            name,
+            images,
+          }}
+        />
       </div>
     </div>
+    </>
   );
 }

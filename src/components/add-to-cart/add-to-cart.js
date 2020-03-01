@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import styles from './add-to-cart.module.css';
 
 export default function AddToCart(props) {
-  const { productId:id } = props;
+  const { productId:id, name, images } = props.product;
 
-  const [quantity, setQuantity] = useState('');
+  const [quantity, setQuantity] = useState(0);
   const [productOrdered, setProductOrdered] = useState(false);
 
   async function sendToCart(event) {
@@ -15,6 +15,8 @@ export default function AddToCart(props) {
 
     const payload = {
       id,
+      name,
+      images,
       quantity: parseFloat(quantity),
     };
 
@@ -54,7 +56,7 @@ export default function AddToCart(props) {
             value={quantity}
             readOnly={productOrdered}
             min="0"
-            onChange={(event) => setQuantity(event.target.value)}
+            onChange={(event) => setQuantity(parseFloat(event.target.value))}
           />
         </label>
         <p className={styles.howToAddExplanation}>
@@ -78,5 +80,11 @@ export default function AddToCart(props) {
 }
 
 AddToCart.propTypes = {
-  productId: PropTypes.string,
+  product: PropTypes.shape({
+    productId: PropTypes.string,
+    name: PropTypes.string,
+    images: PropTypes.arrayOf(PropTypes.shape({
+      url: PropTypes.string,
+    })),
+  }),
 };
