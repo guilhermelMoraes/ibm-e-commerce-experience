@@ -4,6 +4,7 @@ header#defaultHeader {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 50;
 
   background-color: #fafafa;
 }
@@ -23,6 +24,8 @@ a#cartLink {
 
   color: #0863fe;
   font-weight: bolder;
+
+  position: relative;
 }
 
 img#cartIcon {
@@ -39,4 +42,18 @@ a.navLink {
 
 a.navLink:visited {
   color: black;
+}
+
+div#cartLength {
+  padding: 5px 6px;
+  z-index: 20;
+  border-radius: 40px;
+  font-size: 0.8rem;
+
+  position: absolute;
+  left: 16px;
+  top: -5px;
+
+  color: #fafafa;
+  background-color: #0863fe;
 }

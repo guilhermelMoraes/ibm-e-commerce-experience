@@ -7,15 +7,6 @@ div.flexContainer {
   display: flex;
 }
 
-a.backToMainMenu {
-  font-weight: bolder;
-  text-decoration: none;
-  color: #0863fe;
-
-  display: inline-flex;
-  align-items: center;
-}
-
 main.productDescription {
   width: 75%;
   display: flex;
@@ -25,9 +16,4 @@ main.productDescription > section {
   width: 60%;
   padding: 0 20px;
   box-sizing: border-box;
-}
-
-a.backToMainMenu > img {
-  width: 22px;
-  margin-right: 5px;
 }

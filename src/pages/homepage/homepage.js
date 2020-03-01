@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Axios from 'axios';
+import Helmet from 'react-helmet';
 
 import ibmLogo from '../../assets/images/ibm-logo.png';
 import styles from './homepage.module.css';
@@ -23,6 +24,9 @@ export default function Homepage() {
 
   return (
     <>
+      <Helmet>
+        <title>Homepage | IBM E-COMMERCE EXPERIENCE</title>
+      </Helmet>
       <section id={styles.topSection}>
         <img
           src={ibmLogo}
