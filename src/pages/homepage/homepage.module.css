@@ -1,5 +1,6 @@
 section#topSection {
   display: flex;
+  flex-wrap: wrap;
 
   width: 80%;
   margin: 0 auto;
@@ -9,10 +10,16 @@ section#topSection {
 img#ibmLogo {
   width: 150px;
   max-height: 200px;
+  margin-right: 20px;
 }
 
 div#intro {
-  margin-left: 50px;
+  padding-left: 50px;
+  width: 80%;
+}
+
+div#intro > p {
+  text-align: justify;
 }
 
 main#productsWrapper {
@@ -34,10 +41,26 @@ div#gridContainer {
   div#gridContainer {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  div#intro {
+    padding-left: 0;
+    width: 100%;
+  }
 }
 
 @media (max-width: 660px) {
   div#gridContainer {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  section#topSection {
+    width: 100%;
+    padding: 15px;
+  }
+
+  main#productsWrapper {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
+

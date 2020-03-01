@@ -76,18 +76,5 @@
       ]
     }
   ],
-  "cart": [
-    {
-      "id": "63756f98-e1c1-49e6-85d9-7a867fdd47ba",
-      "quantity": 3
-    },
-    {
-      "id": "a91c155b-1b49-40dc-b347-b99c67ba8a4e",
-      "quantity": 3
-    },
-    {
-      "id": "b679cc0c-6fae-40d5-a59e-787a0231d91f",
-      "quantity": 3
-    }
-  ]
+  "cart": []
 }

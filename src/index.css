@@ -4,13 +4,19 @@ h3, h4, h5, h6 {
 
 label {
   display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid green;
 }
 
 label > span {
   display: block;
+  margin-bottom: 8px;
 }
 
 label > input {
+  width: 100%;
+  max-width: 200px;
   border: 1px solid #707070;
   padding: 8px 10px;
   box-sizing: border-box;
